@@ -1,0 +1,123 @@
+
+header ,footer{
+    background:#141d28  ;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    padding: 1px 0px;
+    
+    
+}
+
+#logo{
+    
+    top: 5px;
+    left: 15px;
+    
+    position: absolute;
+}
+#logo h1{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-top: 11px;
+
+}
+
+#logo img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+   
+    position: absolute;
+}
+nav{
+    top :5px;
+    position: absolute;
+    right: 15px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+    position: relative;
+
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+   
+}
+nav a:hover{
+    color: #0073ff;
+}
+nav a:active{
+    background-color: rgb(62, 148, 230);
+    padding: 8px;
+    border-radius: 8px;
+}
+#search{
+    border-radius: 10px 0 0 10px;
+    width: 150px;
+    height: 30px ;
+    padding: 0 10px;
+    
+    
+}
+
+
+#butt{
+    position: relative;
+    left :-15px;
+    border-radius: 0 10px 10px 0;
+    width: 30px;
+    height: 31px ;
+    background-color:  rgb(62, 148, 230);
+    top: 1.7px;
+        
+}
+.container{
+    /*class en css*/
+    width :1400px;
+    margin: 0em auto;
+    position: relative;
+    background-color: white;
+    
+}
+
+.dropdown {
+    display: none;
+  }
+  
+nav ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #141d28;
+    display: list-item;
+  }
+  
+ nav ul li:hover .dropdown ul {
+    display: block;
+    margin: 15px;
+    position: absolute;
+    display: list-item;
+  }
+  
+  nav ul li:hover .dropdown ul li {
+    width: 100px;
+    padding: 10px;
+    position: relative;
+ margin: 0px;
+ 
+    display: list-item;
+  }
+
+
+
+  
